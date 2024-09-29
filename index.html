@@ -1,14 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
 
-    
+<body dir="rtl">
+    <!-- START NAVBAR -->
+    <nav class="navbar bg-white sticky top-0 w-full p-4 shadow-lg flex justify-between align-middle ">
+        <div class="logo">
+            <a href="./index.html" class="logo pr-4 mr-4"><span class="text-[#ffd74f] text-3xl">موسو </span><span
+                    class="text-[#f65129] text-3xl">اینتر</span><span class="text-[#00a05d] text-3xl">یور</span></a>
+        </div>
+        <div class="navbar-center hidden lg:flex w-[40%] justify-around text-xl">
+            <ul class="menu menu-horizontal px-1 text-lg text-[#717275] ">
+                <li><a href="./index.html" class="hover:bg-[#ffd74f] hover:text-white">خانه</a></li>
+                <li><a href="#about" class="hover:bg-[#ffd74f] hover:text-white scro">درباره ما</a></li>
+                <li>
+                    <details>
+                        <summary class="hover:bg-[#ffd74f] hover:text-white">فروشگاه</summary>
+                        <ul class="p-2 w-44 ">
+                            <li class=" content-center"><a class="hover:bg-[#ffd74f] hover:text-white">لیست فروشگاه</a>
+                            </li>
+                            <li class="content-center"><a class="hover:bg-[#ffd74f] hover:text-white">جزئیات فروشگاه</a>
+                            </li>
+                        </ul>
+                    </details>
+                </li>
+                <li><a class="hover:bg-[#ffd74f] hover:text-white visited:bg-[#ffd74f]">قوانین</a></li>
+                <li><a class="hover:bg-[#ffd74f] hover:text-white">تماس با ما</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+    <main>
+
+        <!-- START SECTION-1 -->
+        <div class="first flex justify-center flex-col align-middle items-center">
+            <div class="first-1  flex flex-col justify-center items-center">
+                <p class="text-[#00a05d] text-center">به موسواینتریور خوش آمدید <i
+                        class="fa-solid fa-house text-[#f65129]"></i></p>
+                <h2 class="text-white text-center p-[30px] pr-5">یک فضای داخلی زیبا برای فضای خود تزئین کنید</h2>
+            </div>
+            <div class="first-2 flex justify-evenly bg-white p-10 w-[60%] text-center items-center rounded-lg mt-4">
+                <div class="py-5">
+                    <button
+                        class="btn join-item bg-[#f65129] text-white hover:bg-[#ffd74f] flex content-center">جستجو</button>
+                </div>
+                <div class="join">
+
+                    <select class="select rounded-none join-item text-[#717275]">
+                        <option disabled selected>500 تا 900 $</option>
+                        <option>1000 تا 2900 $</option>
+                        <option>3000 تا 5000 $</option>
+                        <option>5000 تا 10000 $</option>
+                        <option>11000 تا 20000 $</option>
+                        <input type="submit" value="قیمت" class="pr-3 select-bordered">
+                    </select>
+
+                </div>
+                <div class="join">
+
+                    <input class="input  rounded-none join-item text-center " placeholder=" حمام،اتاق خواب و ..." />
+                    <input type="submit" value="محصول" class="pr-3 select-bordered">
+                </div>
+            </div>
+            <div class="first-3">
+                <span><i
+                        class="fa-solid fa-arrow-down text-3xl text-white bg-[#ffd74f] hover:bg-[#f65129] transition mt-8"></i></span>
+            </div>
+        </div>
+        <!-- END SECTION-1 -->
+        <!-- START SECTION-2 -->
+        <div class="about flex justify-evenly " id="about">
+            <div class="about-1 w-[30%] flex flex-col justify-center items-start text-justify">
+                <p class="text-[#00a05d]">داستان مــا</p>
+                <h2 class="text-5xl"><span class="text-[#6c757d] text-5xl">معرفـی </span>مـوسـو</h2>
+                <h4 class="text-[#6c757d] text-3xl leading-10">از سال 1986، ما محصولات داخلی را برای فضاهای بهتر ساختیم
+                </h4>
+                <p>Moso Interior یک قالب بوت استرپ 5 HTML CSS رایگان برای وب سایت شما است. Tooplate یکی از بهترین وب
+                    سایت ها برای دانلود قالب های HTML 100% رایگان برای طراحان و توسعه دهندگان وب در سراسر جهان است. با
+                    تشکر از شما برای بازدید.</p>
+            </div>
+            <div class="about-2 w-[30%] flex justify-center items-center">
+                <img src="./assets/Image/about/about-2.jpg" alt="" class="rounded-full">
+            </div>
+            <div class="about-3 w-[30%] flex justify-center items-center">
+                <img src="./assets/Image/about/about-1.jpg" alt="" class="rounded-full">
+            </div>
+        </div>
+        <!-- END SECTION-2 -->
+        <!-- START INFO SECTION -->
+         <div class="info flex justify-end">
+            <div class="info-1 text-start bg-[#e9eaeb] pl-10">
+                <h2 class="mt-2 mb-9 text-5xl font-semibold text-right">ساعات کاری</h2>
+
+                                <div class="d-flex">
+                                    <div class="flex items-center  gap-2"><i class="fa-regular fa-clock mb-3"></i>
+                                        <p class="mb-3">
+                                            دوشنبه - جمعه ~
+                                            <strong class="d-inline">
+                                                8:00 صبح - 6:00 بعد از ظهر
+                                            </strong>
+                                        </p></div>
+                                    
+                                    
+                                    <div>
+                                        
+
+                                        <p class="mb-3 mr-6">
+                                            شنبه ~
+                                            <strong class="d-inline">
+                                                10:00 صبح - 10:00 شب
+                                            </strong>
+                                        </p>
+
+                                        <p class="mr-6">یکشنبه ~ تعطیل</p>
+                                    </div>
+                                </div>
+            </div>
+         </div>
+        <!-- END INFO SECTION -->
+    </main>
+
+
+
 
 
 
@@ -19,8 +144,12 @@
 
 
     <!-- JAVASCRIPT FILE -->
-     <script src="./js/main.js"></script>
-     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-     <!-- JAVASCRIPT FILE -->
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/jquery.backstretch.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- JAVASCRIPT FILE -->
 </body>
+
 </html>
