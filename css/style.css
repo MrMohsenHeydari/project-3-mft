@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Dana-Light;
+    src: url(../assets/font/DanaFaNum-Light/DanaFaNum-Light.eot);
+    src: url(../assets/font/DanaFaNum-Light/DanaFaNum-Light.ttf);
+    src: url(../assets/font/DanaFaNum-Light/DanaFaNum-Light.woff);
+    src: url(../assets/font/DanaFaNum-Light/DanaFaNum-Light.woff2);
+}
+
+@font-face {
+    font-family: Dana-Regular;
+    src: url(../assets/font/DanaFaNum-Regular/DanaFaNum-Regular.eot);
+    src: url(../assets/font/DanaFaNum-Regular/DanaFaNum-Regular.ttf);
+    src: url(../assets/font/DanaFaNum-Regular/DanaFaNum-Regular.woff);
+    src: url(../assets/font/DanaFaNum-Regular/DanaFaNum-Regular.woff2);
+}
+
+@font-face {
+    font-family: Dana-Medium;
+    src: url(../assets/font/DanaFaNum-Medium/DanaFaNum-Medium.eot);
+    src: url(../assets/font/DanaFaNum-Medium/DanaFaNum-Medium.ttf);
+    src: url(../assets/font/DanaFaNum-Medium/DanaFaNum-Medium.woff);
+    src: url(../assets/font/DanaFaNum-Medium/DanaFaNum-Medium.woff2);
+}
+
+@font-face {
+    font-family: Dana-Demibold;
+    src: url(../assets/font/DanaFaNum-DemiBold/DanaFaNum-DemiBold.eot);
+    src: url(../assets/font/DanaFaNum-DemiBold/DanaFaNum-DemiBold.ttf);
+    src: url(../assets/font/DanaFaNum-DemiBold/DanaFaNum-DemiBold.woff);
+    src: url(../assets/font/DanaFaNum-DemiBold/DanaFaNum-DemiBold.woff2);
+}
+
+@font-face {
+    font-family: Dana-Bold;
+    src: url(../assets/font/DanaFaNum-Bold/DanaFaNum-Bold.eot);
+    src: url(../assets/font/DanaFaNum-Bold/DanaFaNum-Bold.ttf);
+    src: url(../assets/font/DanaFaNum-Bold/DanaFaNum-Bold.woff);
+    src: url(../assets/font/DanaFaNum-Bold/DanaFaNum-Bold.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+nav,
+ul {
+    font-family: Dana-Medium;
+    z-index: 999;
+
+}
+
+/* NAVBAR */
+/* SECTION-1 */
+div.first {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 87vh;
+}
+
+.first-1>p {
+    font-family: Dana-Medium;
+
+}
+
+.first-1>h2 {
+    font-family: Dana-Bold;
+    width: 80%;
+    padding: 30px;
+    font-size: 45px;
+}
+
+.first-2,
+.first-2>div>button {
+    font-family: Dana-Demibold;
+    padding: 25px 40px;
+    font-size: 16px;
+
+}
+
+div.first-2>div.join>option:hover {
+    background-color: #f65129;
+}
+
+div.join {
+    border: 1px solid #e9eaeb;
+    padding: 1px 30px;
+}
+
+.first-3>span>i {
+    padding: 25px 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* SECTION-1 */
+/* SECTION-2 */
+div.about {
+    font-family: Dana-Demibold;
+    padding: 150px 50px;
+}
+
+div.about>.about-1>p {
+    font-family: Dana-Regular;
+}
+
+div.about>.about-1>p,
+div.about>.about-1>h2,
+div.about>.about-1>h4 {
+    margin: 10px 5px;
+}
+
+div.about>.about-2>img {
+    width: 250px;
+    height: 250px;
+}
+
+div.about>.about-3>img {
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+}
+
+div.about>.about-2>img,
+div.about>.about-3>img {
+    object-fit: cover;
+    object-position: center;
+}
+
+/* SECTION-2 */
+/* INFO SECTION */
+div.info {
+    background-image: url('../assets/Image/info/info.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    
+    font-family: Dana-Regular;
+}
+.info .info-1{
+    padding: 45px 50px;
+    border-top: 20px solid #f65129;
+    border-radius: 20px;
+    margin-left: 125px;
+    padding-left: 150px;
+}
+.info .info-1 h2{
+    font-family: Dana-Demibold;
+    letter-spacing: -2px;
+}
+
+/* INFO SECTION */
