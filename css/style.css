@@ -142,19 +142,267 @@ div.info {
     background-position: center;
     background-size: cover;
     padding: 100px 0px;
-    
+
     font-family: Dana-Regular;
 }
-.info .info-1{
+
+.info .info-1 {
     padding: 45px 50px;
     border-top: 20px solid #f65129;
     border-radius: 20px;
     margin-left: 125px;
     padding-left: 150px;
 }
-.info .info-1 h2{
+
+.info .info-1 h2 {
     font-family: Dana-Demibold;
     letter-spacing: -2px;
 }
 
 /* INFO SECTION */
+/* SHOP SECTION */
+.section-small-title {
+    font-family: Dana-Medium;
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.shop-tittle {
+    font-family: Dana-Demibold;
+    font-size: 40px;
+    color: #f65129;
+    margin-bottom: 20px;
+}
+
+.shop-tittle-2 {
+    color: black;
+}
+
+span.shop-pricing {
+    margin: 20px;
+    margin-right: 25px;
+    font-family: Dana-Demibold;
+}
+
+.shop-image-wrap:hover .shop-btn-wrap {
+    opacity: 1;
+}
+
+.shop-btn-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.shop-btn {
+    font-family: Dana-Demibold;
+    line-height: 25px;
+}
+
+.shop-body>h4 {
+    font-family: Dana-Demibold;
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+div.join {
+    border: none;
+    outline: none;
+}
+
+.part-3 {
+    display: flex;
+    justify-content: center;
+}
+
+div.join .btn {
+    margin: 10px;
+    border-radius: 50%;
+    border: 0.5 solid #717275;
+    background-color: transparent;
+    font-family: Dana-Demibold;
+}
+
+div.join .btn:hover {
+    background-color: #f65129;
+    transition: 0.5s;
+    transform: scale(1.2);
+    border-radius: 50%;
+    color: white;
+}
+
+/* SHOP SECTION */
+/* RIVIEW SECTION */
+
+div.review {
+    background-color: #f9f9f9;
+    padding: 30px;
+    padding-right: 64px;
+}
+
+.review>span {
+    font-family: Dana-Medium;
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.review>h2 {
+    font-family: Dana-Demibold;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.comment {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    background: rgb(246, 81, 41);
+    background: linear-gradient(0deg, rgba(246, 81, 41, 0.7456232492997199) 0%, rgba(205, 205, 205, 0.22461484593837533) 100%);
+}
+
+.comment .rating {
+    margin-left: 20px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    margin-top: -20px;
+}
+
+.mySwiper .card .card-body .card-title {
+    font-family: Dana-Demibold;
+    letter-spacing: -2px;
+}
+
+.mySwiper .card .card-body>p {
+    font-family: Dana-Medium;
+    font-size: 15px;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.review-2 {
+    background-color: #f9f9f9;
+}
+
+.comfacebook {
+    font-family: Dana-Regular;
+}
+
+.comfacebook>a {
+    background-color: #1877f2;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 30px;
+    margin: 20px 10px;
+    transition: 0.5s;
+}
+
+.comfacebook>a:hover {
+    background-color: white;
+    border: 2px solid #1877f2;
+    border-radius: 50px;
+    color: #1877f2;
+    transition: 0.5s;
+}
+
+/* RIVIEW SECTION */
+/* CONTACT SECTION */
+.contact-title {
+    font-family: Dana-Medium;
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.contact-title-2 {
+    font-family: Dana-Demibold;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.formcontact .formcontact-1 {
+    background-color: #ffd74f;
+    padding: 30px 20px;
+    border-top: 20px solid #f65129;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.contactinfo {
+    padding-right: 40px;
+}
+
+.contactinfo h3 {
+    font-family: Dana-Demibold;
+    letter-spacing: -1px;
+    font-size: 25px;
+    margin: 15px 0px;
+}
+
+.contactinfo p {
+    font-family: Dana-light;
+    font-size: 20px;
+}
+
+.contactinfo p i {
+    color: #f65129;
+}
+
+.google-map {
+    width: 88%;
+    margin: 10px auto;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.formcontact .formcontact-2 {
+    border-radius: 20px;
+    font-family: Dana-Medium;
+    font-size: 13px;
+}
+div.firstname , div.lastname,div.emailAd,div.textarea{
+    padding: 5px 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+
+}
+div.textarea{
+    display: flex;
+    align-items: start; 
+     
+}
+label.text{
+    padding-top: 12px;
+}
+button.btn{
+    padding: 10px 30px;
+}
+
+
+/* CONTACT SECTION */
