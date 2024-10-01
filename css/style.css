@@ -53,10 +53,11 @@ nav,
 ul {
     font-family: Dana-Medium;
     z-index: 999;
-
 }
 
 /* NAVBAR */
+
+
 /* SECTION-1 */
 div.first {
     background-position: center;
@@ -94,13 +95,15 @@ div.join {
     padding: 1px 30px;
 }
 
-.first-3>span>i {
+.first-3>span>a>i {
     padding: 25px 28px;
     border-radius: 50%;
     cursor: pointer;
 }
 
 /* SECTION-1 */
+
+
 /* SECTION-2 */
 div.about {
     font-family: Dana-Demibold;
@@ -135,6 +138,8 @@ div.about>.about-3>img {
 }
 
 /* SECTION-2 */
+
+
 /* INFO SECTION */
 div.info {
     background-image: url('../assets/Image/info/info.jpg');
@@ -160,6 +165,8 @@ div.info {
 }
 
 /* INFO SECTION */
+
+
 /* SHOP SECTION */
 .section-small-title {
     font-family: Dana-Medium;
@@ -237,6 +244,8 @@ div.join .btn:hover {
 }
 
 /* SHOP SECTION */
+
+
 /* RIVIEW SECTION */
 
 div.review {
@@ -328,6 +337,8 @@ swiper-slide img {
 }
 
 /* RIVIEW SECTION */
+
+
 /* CONTACT SECTION */
 .contact-title {
     font-family: Dana-Medium;
@@ -383,7 +394,11 @@ swiper-slide img {
     font-family: Dana-Medium;
     font-size: 13px;
 }
-div.firstname , div.lastname,div.emailAd,div.textarea{
+
+div.firstname,
+div.lastname,
+div.emailAd,
+div.textarea {
     padding: 5px 10px;
     background-color: white;
     display: flex;
@@ -392,17 +407,144 @@ div.firstname , div.lastname,div.emailAd,div.textarea{
     border-radius: 5px;
 
 }
-div.textarea{
+
+div.textarea {
     display: flex;
-    align-items: start; 
-     
+    align-items: start;
+
 }
-label.text{
+
+label.text {
     padding-top: 12px;
 }
-button.btn{
+
+button.btn {
     padding: 10px 30px;
 }
 
-
 /* CONTACT SECTION */
+
+
+/* FOOTER SECTION */
+footer {
+    font-family: Dana-Demibold;
+    color: #e9eaeb;
+}
+
+.footersite p {
+    font-family: Dana-light;
+    font-size: 20px;
+}
+
+.footerparag,
+.webdesign {
+    font-family: Dana-light;
+    font-size: 22px;
+
+}
+
+p.copyright {
+    font-size: 15px;
+}
+
+i.fa-twitter {
+    color: #1da1f2;
+}
+
+i.fa-facebook {
+    color: #1877f2;
+}
+
+i.fa-instagram {
+    color: #c13584;
+}
+
+i.fa-pinterest {
+    color: #e60023;
+}
+
+i.fa-whatsapp {
+    color: #128c7e;
+}
+
+/* FOOTER SECTION */
+
+/* SHOPLIST SECTION */
+.shoplist-1 {
+    background-image: url('../assets/Image/info/info.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.shoplist-1 h3 {
+    font-family: Dana-Bold;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    letter-spacing: -1px;
+}
+.formshoplist{
+    font-family: Dana-Medium;
+}
+.shoplist-title h2{
+    font-family: Dana-Bold;
+    font-size: 30px;
+}
+.shoplist-title p{
+    font-family: Dana-Regular;
+}
+
+/* SHOPLIST SECTION */
+
+/* SHOPDETAIL SECTION */
+.shopdetail-1 {
+    background-image: url('../assets/Image/info/info.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.shopdetail-1 h3 {
+    font-family: Dana-Bold;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    letter-spacing: -1px;
+}
+/* SHOPDETAIL SECTION */
+
+/* SHOPDETAIL SECTION */
+.firstdetail{
+    font-family: Dana-Medium;
+    background-color: #f9f9f9;
+}
+span.red{
+color: #f65129;
+font-family: Dana-Bold;
+}
+span.green{
+    color: #00a05d;
+    font-family: Dana-Bold;
+}
+span.gray{
+    font-family: Dana-Bold;
+    letter-spacing: -1px;
+}
+.twicedetail-2{
+    font-family: Dana-Regular;
+}
+.twicedetail-2 h3{
+    font-family: Dana-Bold;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+/* SHOPDETAIL SECTION */
