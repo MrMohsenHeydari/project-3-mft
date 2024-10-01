@@ -7,6 +7,3 @@ window.addEventListener("DOMContentLoaded",()=>{
       ],  {duration: 2000, fade: 850});
 
 })
-
-
-
